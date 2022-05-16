@@ -16,7 +16,7 @@ The notes are stored on the blockchain.  Anyone can read the notes into their ap
 Clone the repo:
 ```
 git clone  https://github.com/chrontast/BlockPiano.git
-cd BlockAudio
+cd BlockPiano
 ```
 
 Install dependencies:
