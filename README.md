@@ -37,7 +37,8 @@ yarn chain
 
 🔏 Edit your smart contract `BlockPiano.sol` in `packages/hardhat/contracts/BlockAudio.sol`
 
-## Change the _owner address in the constructor argument.
+Change the _owner address in the constructor argument.
+
 
 
 In a third terminal window, deploy contracts:
