@@ -35,14 +35,27 @@ In a second terminal window, start a local blockchain
 yarn chain
 ```
 
+🔏 Edit your smart contract `BlockPiano.sol` in `packages/hardhat/contracts`
+
+Change the _owner address in the constructor argument.
+
 In a third terminal window, deploy contracts:
 ```
 yarn deploy
 ```
 
-🌍 You need an RPC key for production deployments/Apps, create an [Alchemy](https://www.alchemy.com/) account and replace the value of `ALCHEMY_KEY = xxx` in `packages/react-app/src/constants.js`
+Add sound to to each note:
 
-🔏 Edit your smart contract `BlockAudio.sol` in `packages/hardhat/contracts`
+On the contrat page the owner can set the audio for each note.
+
+Convert an mp3 audio file into base64(Needs to be less than 3 seconds). There are free online converters.
+
+Paste the base64 data into the desired note field. Click send and approve the transaction.
+
+
+
+
+🌍 You need an RPC key for production deployments/Apps, create an [Alchemy](https://www.alchemy.com/) account and replace the value of `ALCHEMY_KEY = xxx` in `packages/react-app/src/constants.js`
 
 📝 Edit your frontend `App.jsx` in `packages/react-app/src`
 
