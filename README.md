@@ -2,31 +2,20 @@
 
 > Demonstration showing how audio can be sent over the blockchain.
 
-Play with the [live app](https://block-audio.surge.sh/) deployed on kovan network.
+Play with the [live app](https://dusty-rice5.surge.sh/) deployed on kovan network.
 
-## How to:
-Connect to Kovan test network.
+These notes should play on most broswers and without connecting your wallet.
 
-Press the Start button and speak. Currently it can only handle messages less than 3 seconds.
-  
-Press the Stop button. Listen to your message.
+The notes are stored on the blockchain.  Anyone can read the notes into their app/site for free.
 
-Click "Send to Alice" or "Send to Bob".  Approve the transaction.
-
-Wait for the transaction to process.
-
-Click "Check" and the audio should load.
-
-Press the play button to listen to the message.
-
-![blockaudio1](https://user-images.githubusercontent.com/75052782/167464066-901bcce8-652f-4acc-8b26-646ba4f1bc2a.png)
+![piano](https://user-images.githubusercontent.com/75052782/168682799-b3f65571-8483-46eb-909c-b2b712237616.png)
 
 
 ### Installation
 
 Clone the repo:
 ```
-git clone  https://github.com/chrontast/BlockAudio.git
+git clone  https://github.com/chrontast/BlockPiano.git
 cd BlockAudio
 ```
 
@@ -37,7 +26,7 @@ yarn install
 
 Start frontend
 ```
-cd BlockAudio
+cd BlockPiano
 yarn start
 ```
 
