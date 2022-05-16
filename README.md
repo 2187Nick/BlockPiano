@@ -37,14 +37,17 @@ yarn chain
 
 🔏 Edit your smart contract `BlockPiano.sol` in `packages/hardhat/contracts`
 
-Change the _owner address in the constructor argument.
+#Change the _owner address in the constructor argument.
+
+![piano_contract](https://user-images.githubusercontent.com/75052782/168694444-7de245f2-9749-4242-8f40-021ebf085974.png)
+
 
 In a third terminal window, deploy contracts:
 ```
 yarn deploy
 ```
 
-Add sound to to each note:
+#Add sound to to each note:
 
 On the contrat page the owner can set the audio for each note.
 
@@ -52,7 +55,7 @@ Convert an mp3 audio file into base64(Needs to be less than 3 seconds). There ar
 
 Paste the base64 data into the desired note field. Click send and approve the transaction.
 
-
+![piano_notes](https://user-images.githubusercontent.com/75052782/168694488-a30a7fe4-2f80-4bc4-bebe-617d6863e3f3.png)
 
 
 🌍 You need an RPC key for production deployments/Apps, create an [Alchemy](https://www.alchemy.com/) account and replace the value of `ALCHEMY_KEY = xxx` in `packages/react-app/src/constants.js`
