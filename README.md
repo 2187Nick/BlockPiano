@@ -35,11 +35,9 @@ In a second terminal window, start a local blockchain
 yarn chain
 ```
 
-🔏 Edit your smart contract `BlockPiano.sol` in `packages/hardhat/contracts`
+🔏 Edit your smart contract `BlockPiano.sol` in `packages/hardhat/contracts/BlockAudio.sol`
 
-#Change the _owner address in the constructor argument.
-
-![piano_contract](https://user-images.githubusercontent.com/75052782/168694444-7de245f2-9749-4242-8f40-021ebf085974.png)
+## Change the _owner address in the constructor argument.
 
 
 In a third terminal window, deploy contracts:
@@ -50,6 +48,8 @@ yarn deploy
 #Add sound to to each note:
 
 On the contrat page the owner can set the audio for each note.
+
+![piano_contract](https://user-images.githubusercontent.com/75052782/168694444-7de245f2-9749-4242-8f40-021ebf085974.png)
 
 Convert an mp3 audio file into base64(Needs to be less than 3 seconds). There are free online converters.
 
