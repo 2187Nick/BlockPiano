@@ -1,4 +1,4 @@
-# 🏗 scaffold-eth - Audio over Blockchain
+# 🏗 scaffold-eth - Blockchain Piano
 
 > Demonstration showing how audio can be sent over the blockchain.
 
